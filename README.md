@@ -1,11 +1,10 @@
 # ExRazorpay
 
-**TODO: Razorpay Payment Gateway API library for Elixir**
+**Razorpay Payment Gateway API library for Elixir**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_razorpay` to your list of dependencies in `mix.exs`:
+The package can be installed by adding msg91 to your list of dependencies in mix.exs:
 
 ```elixir
 def deps do
