@@ -4,19 +4,16 @@
 
 ## Installation
 
-The package can be installed by adding msg91 to your list of dependencies in mix.exs:
+The package can be installed by adding :ex_razorpay to your list of dependencies in mix.exs:
 
 ```elixir
 def deps do
   [
-    {:ex_razorpay, "~> 0.1.0"}
+    {:ex_razorpay, "~> 0.1.1"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_razorpay](https://hexdocs.pm/ex_razorpay).
+Docs can be found at [https://hexdocs.pm/ex_razorpay](https://hexdocs.pm/ex_razorpay).
 
 ## Configuration
 
