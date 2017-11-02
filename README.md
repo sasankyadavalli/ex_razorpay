@@ -1,6 +1,6 @@
 # ExRazorpay
 
-**TODO: Add description**
+**TODO: Razorpay Payment Gateway API library for Elixir**
 
 ## Installation
 
@@ -19,3 +19,10 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/ex_razorpay](https://hexdocs.pm/ex_razorpay).
 
+## Configuration
+
+```elixir
+config :ex_razorpay, 
+   key: "RAZORPAY_KEY_ID",
+   secret: "RAZORPAY_KEY_SECRET"
+```
