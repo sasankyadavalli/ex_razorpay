@@ -4,9 +4,9 @@ defmodule ExRazorpay.Mixfile do
   def project do
     [
       app: :ex_razorpay,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.5",
-      description: "Razorpay API library for Elixir",
+      description: "Razorpay API bindings for Elixir",
       source_url: "https://github.com/sasankyadavalli/ex_razorpay",
       package: package(),
       start_permanent: Mix.env == :prod,
@@ -26,7 +26,7 @@ defmodule ExRazorpay.Mixfile do
     [
       {:httpoison, "~> 0.13"},
       {:poison, "~> 3.1"},
-      {:ex_doc, "~> 0.16", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.16", only: [:dev, :test]},
       {:credo, "~> 0.8", only: [:dev, :test], runtime: false}
     ]
   end
